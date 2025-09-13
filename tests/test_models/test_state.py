@@ -176,4 +176,4 @@ class TestState(unittest.TestCase):
 
         st = State()
         string = '['+st.__class__.__name__+']'+' ('+st.id+') '+str(st.__dict__)
-        self.assertEqual(string, st.__str__())
+        self.assertEqual(string, st.__str__())  
